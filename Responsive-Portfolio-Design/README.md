@@ -19,3 +19,4 @@ feel free to leave a star (much appreciated) fork it and customize as you like! 
 
 - Inspired design by Bedimcode-Alexa design 🙌
 -Designed  by Faizan
+Live at :https://portfolio-design-faizann.netlify.app/
