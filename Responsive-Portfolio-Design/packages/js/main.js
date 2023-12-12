@@ -1,7 +1,7 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
-const navMenu = document.getElementById("nav-menu"),
-  navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nav-close");
+const navMenu = document.getElementById("nav-menu");
+const navToggle = document.getElementById("nav-toggle");
+const navClose = document.getElementById("nav-close");
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -30,8 +30,8 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName("skills__content"),
-  skillsHeader = document.querySelectorAll(".skills__header");
+const skillsContent = document.getElementsByClassName("skills__content");
+const skillsHeader = document.querySelectorAll(".skills__header");
 
 function toggleSkills() {
   let itemClass = this.parentNode.className;
@@ -49,8 +49,8 @@ skillsHeader.forEach((el) => {
 });
 
 /*==================== QUALIFICATION TABS ====================*/
-const tabs = document.querySelectorAll("[data-target]"),
-  tabContents = document.querySelectorAll("[data-content]");
+const tabs = document.querySelectorAll("[data-target]");
+const tabContents = document.querySelectorAll("[data-content]");
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -69,9 +69,9 @@ tabs.forEach((tab) => {
 });
 
 /*==================== SERVICES MODAL ====================*/
-const modalViews = document.querySelectorAll(".services__modal"),
-  modalBtns = document.querySelectorAll(".services__button"),
-  modalCloses = document.querySelectorAll(".services__modal-close");
+const modalViews = document.querySelectorAll(".services__modal");
+const modalBtns = document.querySelectorAll(".services__button");
+const modalCloses = document.querySelectorAll(".services__modal-close");
 
 let modal = function (modalClick) {
   modalViews[modalClick].classList.add("active-modal");
